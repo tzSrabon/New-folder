@@ -11,22 +11,24 @@ body{
     background-size: cover;
     text-align: center;
     position: relative;
-}
-.bg{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: black;
+    z-index: 1;
 }
 
+.bg{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.418);
+    z-index:-1;
+}
 #hero h2{
     font-size: 38px;
-    color:#ff0000;
+    color:#ffffff;
     font-weight: bold;
 }
 #hero p{
     font-size: 30px;
-    color: #f1c40f;
+    color: #ffffff;
     margin-bottom: 20px;
 }
 #hero a{
@@ -37,4 +39,14 @@ body{
     display: inline-block;
     text-decoration: none;
     margin-bottom: 10px;
+}
+#hero a:hover{
+    background-color: #0b9809;
+    color: azure;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 20px;
 }
