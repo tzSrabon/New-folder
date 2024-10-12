@@ -1,0 +1,28 @@
+.div{
+    width: 30%;
+    padding: 1%;
+    background-color:#1e3799;
+    /* overflow: hidden;  */
+    text-align: justify;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    float:left ;
+}
+
+
+
+div img{
+    height: 250px;
+    width: 250px;
+    margin: 0px auto;
+    display: block;
+    /* float: right;
+    margin-left: 10px;
+    margin-bottom:10px */
+
+}
+.parent{
+    border: 5px solid red;
+    /* overflow: hidden; */
+    overflow: auto;
+}
