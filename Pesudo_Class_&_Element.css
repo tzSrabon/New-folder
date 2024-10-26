@@ -36,7 +36,7 @@ li:nth-child(2n+2) {
 }
 
 body{
-    font-size: 36px;
+    font-size: 38px;
 }
 
 h2::before{
@@ -48,10 +48,8 @@ p::first-line{
 }
 
 p::first-letter{
-    color: crimson;
-    font-size: 40px;
+    color: crimson; 
  }
-
 P::selection{
     background-color: green;
     color: aliceblue;
