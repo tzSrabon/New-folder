@@ -1,0 +1,58 @@
+
+a:hover{
+    color:red;
+}
+
+a:active{
+    color: green;
+}
+
+a:visited{
+    color: darkcyan;
+}
+
+a:focus{
+    color: dodgerblue;
+}
+
+ul{
+    list-style-type:decimal;
+}
+
+/* li:first-child{
+    color: crimson;
+}
+li:last-child{
+    color: coral;
+} */
+
+
+li:nth-child(2n+1) {
+    color:rgb(0, 217, 255)
+}
+
+li:nth-child(2n+2) {
+    color:rgb(255, 8, 8)
+}
+
+body{
+    font-size: 36px;
+}
+
+h2::before{
+content: url(/aniversário-comemoração.gif);
+}
+
+p::first-line{
+   color: crimson; 
+}
+
+p::first-letter{
+    color: crimson;
+    font-size: 40px;
+ }
+
+P::selection{
+    background-color: green;
+    color: aliceblue;
+}
