@@ -1,0 +1,50 @@
+p{
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: justify;
+    text-align-last: center;
+    direction:ltr;
+    text-indent: 100px;
+
+}
+
+h1{
+    text-align: center;
+}
+
+#TC{
+    text-transform: uppercase;
+    /* unicode-bidi:bidi-override; */
+    text-shadow: 5px 2px 1px rgba(255, 0, 0, 0.603);
+}
+#p2{
+    text-align: right;
+}
+
+#p2{
+    text-align-last: left;
+    }
+
+#p2{
+    text-align: left;
+    text-indent: 0px;
+    /* text-decoration:overline; */
+    /* line-height: 100px;
+    letter-spacing:10px; */
+}
+
+#p2 > img{
+    width: 100px;
+    vertical-align:middle;
+}
+
+#h1_3{
+    font-family: "Kanit", sans-serif;
+}
+
+#icon_link{
+    text-align: center;
+    font-size: 30px;
+}
+
