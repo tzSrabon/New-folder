@@ -1,0 +1,9 @@
+img{
+    max-width: 500px;
+    max-height: 500px;
+    display:block;
+    margin: 5% auto;
+    opacity: 0.5;
+}
+
+/* margin use kore div ke center ante hole div height width thaka lagbe ebong margin top bottom e nidristo man howa lagbe ebong left right auto hoya lagbe */
