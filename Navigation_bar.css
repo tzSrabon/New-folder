@@ -1,0 +1,56 @@
+body{
+    margin:0px;
+}
+
+#main_menu{
+    background-color: rgb(77, 76, 76);
+}
+
+#main_menu ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+}
+
+#main_menu li{
+    display: inline-block;
+    position: relative;
+}
+
+#main_menu li a {
+    display: block;
+    padding: 12px;
+    color:azure;
+    text-decoration: none;
+}
+
+#main_menu li a:hover {
+    display: block;
+    padding: 12px;
+    color:azure;
+    text-decoration: none;
+    background-color: #ee4000;
+}
+
+/* Dropdown menu style */
+
+#main_menu ul ul{
+    position: absolute;
+    left: 0;
+    top: 41px;
+    background-color: #4d4c4c;
+    width: 200px;
+}
+
+#main_menu ul ul li{
+    display: block;
+}
+
+#main_menu ul ul li a:hover{
+    display: block;
+    background-color:#ee4000 ;
+}
+
+
+/* নাভবার এই Practice স্থগিত রাখা হল */
